@@ -1,0 +1,170 @@
+<html lang="en">
+<head>
+    <title>Spaceinit</title>
+    <meta charset="UTF-8" />
+    <title>Space Initialization</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Spaceinit.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://spaceinit.com" />
+    <meta property="og:image" content="resources/images/spaceinit2.jpg" />
+    <meta property="og:description" content="Your place for rocket launches, countdowns to rocket launches, space information and more. The place to relight your unkown passion for space and space exploration." />
+    <meta property="og:locale" content="en" />
+    <meta property="og:site_name" content="Spaceinit.com" />
+    <meta property="twitter:site" content="@spaceinit_com" />
+    <meta property="twitter:creator" content="@cvatca" />
+    <meta property="twitter:image" content="resources/images/spaceinit2.jpg" />
+    <meta property="twitter:url" content="https://spaceinit.com/" />
+    <meta property="twitter:title" content="Spaceinit.com" />
+    <meta property="twitter:description" content="Your place for rocket launches, countdowns to rocket launches, space information and more. The place to relight your unkown passion for space and space exploration." />
+    <meta name="keywords" content="launches,space,spacex,aerospace,mars,falcon 9,falcon heavy,dragon,ula,blue origin,launch time" />
+    <meta name="description" content="Your place for rocket launches, countdowns to rocket launches, space information and more. The place to relight your unkown passion for space and space exploration." />
+    <link rel="author" href="https://spaceinit.com/" />
+    <link rel="canonical" href="https://spaceinit.com/" />
+    <link rel="shortlink" href="https://spaceinit.com/" />
+    <link rel="image_src" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="resources/images/apple-icon-152x152.png">
+    <meta name="theme-color" content="white"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Spaceinit">
+    <meta name="msapplication-TileImage" content="resources/images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar01"
+                aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">Spaceinit</a>
+        <button class="navbar-toggler collapsed" type="button"
+                data-toggle="collapse" data-target="#navbar02" aria-controls="navbar02" aria-expanded="false"
+                aria-label="Toggle account navigation">
+            <i class="far fa-user"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar02" style="text-align: right;">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Logout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Profile</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar01" style="">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="dropdown01"
+                       data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">Launch providers <span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Spacex</a>
+                        <a class="dropdown-item" href="#">ULA</a>
+                        <a class="dropdown-item" href="#">Arianespace</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link"
+                       href="#"
+                       id="dropdown02"
+                       data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">People in space</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown02">
+                        <a class="dropdown-item" href="#">Spacex</a>
+                        <a class="dropdown-item" href="#">ULA</a>
+                        <a class="dropdown-item" href="#">Arianespace</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Near Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Help</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+    <div class="content-wrapper container-fluid">
+        <div class="row">
+            <h1>Starting Fresh</h1>
+        </div>
+        <div class="row">
+<!--            <div class="block">-->
+<!--                <div class="block-title">-->
+<!--                    <h3>SpaceX Falcon 9</h3>-->
+<!--                </div>-->
+<!--                <div class="block-content">-->
+<!--                    <span>THis launch</span>-->
+<!--                </div>-->
+<!--            </div>-->
+            <!--
+  This is a part of my blog post
+  https://codepen.io/ThiemelJiri/post/3-css-border-in-corners-techniques
+-->
+<!--            <h1 class="sample-heading">Sample heading</h1>-->
+<!--            <h2 class="sample-heading-2">Another heading</h2>-->
+            <div class="panel col-md-4">
+                <div class="panel-inline sample-heading-3">
+                    <div class="panel-title">
+                        <h4>Spacex Falcon 9</h4>
+                    </div>
+                    <div class="panel-body">
+                        Launching from Cape Canevaral
+                    </div>
+                </div>
+            </div>
+            <div class="panel col-md-4">
+                <div class="panel-inline sample-heading-3">
+                    <div class="panel-title">
+                        <h4>Spacex Falcon 9</h4>
+                    </div>
+                    <div class="panel-body">
+                        Launching from Cape Canevaral
+                    </div>
+                </div>
+            </div>
+            <div class="panel col-md-4">
+                <div class="panel-inline sample-heading-3">
+                    <div class="panel-title">
+                        <h4>Spacex Falcon 9</h4>
+                    </div>
+                    <div class="panel-body">
+                        Launching from Cape Canevaral
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="resources/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
