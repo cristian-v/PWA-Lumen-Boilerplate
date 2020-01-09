@@ -1,57 +1,9 @@
 MyApp = {};
 MyApp.init = function() {
-    console.log('Init');
+    console.log('Init pwafastup');
 };
 jQuery(document).ready(function () {
     MyApp.init();
-});
-Vue.component('launch', {
-    template: `
-   <div class="panel col-md-4">
-        <div class="panel-inline sample-heading-3">
-            <div class="panel-title">
-                <h4>{{ title }}</h4>
-            </div>
-            <div class="panel-body">
-                <ul class="launch-list">
-                    <li>
-                        <span class="launch-attr-title">No Earlier Than:</span>
-                        <span class="net-time">Jan 7, 2020, 4:19:00 AM</span>
-                    </li>
-                    <li>
-                        <span class="launch-attr-title">Location:</span>
-                        <span class="launch-location">Space Launch Complex 40, Cape Canaveral, FL</span>
-                    </li>
-                    <li>
-                        <span class="launch-attr-title">Agency:</span>
-                        <span class="agency-name">SpaceX</span>
-                    </li>
-                    <li>
-                        <span class="launch-attr-title">Live Video:</span>
-                        N/A
-                    </li>
-                    <li>
-                        <span class="launch-attr-title">Live Video:</span>
-                        N/A
-                    </li>
-                    <li>
-                        <span class="launch-attr-title">Live Video:</span>
-                        N/A
-                    </li>
-                </ul>
-                <div class="actions">
-                    <button class="btn btn-prim" style="margin-right: 10px;">Add</button>
-                    <button class="btn btn-prim">Share</button>
-                </div>
-            </div>
-        </div>
-    </div>
-   `,
-    data() {
-        return {
-            title: 'Spacex Falcon 9'
-        };
-    }
 });
 Vue.component('navbar', {
     prop: {
@@ -75,7 +27,7 @@ Vue.component('navbar', {
             <div class="navbar-collapse collapse" id="navbar02" style="text-align: right;">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                        <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Logout</a>
@@ -133,14 +85,31 @@ Vue.component('navbar', {
     `,
     data() {
         return {
-            name: 'SpaceInit'
+            name: 'Pwafastup'
         }
     }
+});
+Vue.component('login_form', {
+    template: `
+    <form class="" action="">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input name="username" class="form-control" id="username"/>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" class="form-control" id="password"/>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-prim">Login</button>
+        </div>
+    </form>
+    `
 });
 var app = new Vue({
     el: '#app',
     data: {
         test: true,
-        pageHeading: 'Starting Fresh'
+        pageHeading: 'Starting Pwafastup'
     }
 });
